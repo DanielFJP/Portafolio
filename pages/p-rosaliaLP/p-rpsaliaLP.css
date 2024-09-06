@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    padding-top: 66px;
+
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.titulo {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-i h1 {
+    font-size: 55px;
+}
+
+
+.v-pc {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.v-pc video {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .v-pc video {
+        width: 100%;
+    }
+
+    .v-pc {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.video-pc {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.contacto {
+    height: 60vh;
+    border-radius: 0;
+}
+
+@media (max-height:920px) and (max-width:550px) {
+
+    .contacto {
+        height: 100vh;
+    }
+}
+
+.cont-footer .row {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.cont-footer {
+    height: 100%;
+}
+
+.cont-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-contacto h1 {
+    font-size: 280%;
+    margin-top: 20px;
+}
+
+.buttons {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+    width: fit-content;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.buttons:hover {
+    padding: 60px;
+}
+
+.main-button {
+    width: 120%;
+    height: 150%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: 0.2s;
+    transition-delay: 0ms;
+    z-index: 100;
+    gap: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.main-button span {
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+
+    .buttons {
+        margin-bottom: 50px;
+    }
+}
+
+.button {
+    position: absolute;
+    display: flex;
+    place-items: center;
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    transition: 0.3s;
+    border-radius: 50%;
+    color: #212529;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.linkedin-button:hover {
+    background: #1CA1F1;
+    color: white
+}
+
+.buttons:hover .linkedin-button {
+    translate: 0px -100px;
+}
+
+
+.Gmail-button:hover {
+    background: #C71610;
+    color: white;
+}
+
+.buttons:hover .Gmail-button {
+    translate: -150px 0px;
+}
+
+
+.cv-button:hover {
+    background: #ff9100;
+    color: white;
+}
+
+.buttons:hover .cv-button {
+    translate: 0px 100px;
+}
+
+.whatsapp-button:hover {
+    background: #25D366;
+    color: white;
+}
+
+.buttons:hover .whatsapp-button {
+    translate: 150px 0px;
+}
+
+.card-footer {
+    color: rgba(255, 255, 255, 0.466);
+}
