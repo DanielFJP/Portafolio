@@ -119,7 +119,7 @@ body {
     align-items: center;
 }
 
-button {
+.button-next button {
     cursor: pointer;
     transition: all .2s;
     padding: 10px 20px;
@@ -133,21 +133,21 @@ button {
     height: 10vh;
 }
 
-button:hover {
+.button-next button:hover {
     background: rgb(0, 0, 0);
 }
 
-button>svg {
+.button-next button>svg {
     width: 34px;
     margin-left: 10px;
     transition: transform .3s ease-in-out;
 }
 
-button:hover svg {
+.button-next button:hover svg {
     transform: translateX(5px);
 }
 
-button:active {
+.button-next button:active {
     transform: scale(0.95);
 }
 
